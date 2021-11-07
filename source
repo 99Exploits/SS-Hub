@@ -1,0 +1,191 @@
+--made by 99#1234
+
+--join discord.gg/u68FDgbetJ
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local label_2 = Instance.new("TextLabel")
+local ImageButton = Instance.new("ImageButton")
+local CocoZ = Instance.new("TextButton")
+local Owlhub = Instance.new("TextButton")
+local swaghub = Instance.new("TextButton")
+local label_3 = Instance.new("TextLabel")
+local shindo = Instance.new("TextButton")
+local bloxfruits = Instance.new("TextButton")
+local closegui = Instance.new("TextButton")
+local opengui = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+main.Position = UDim2.new(0.541963041, 0, 0.142566174, 0)
+main.Size = UDim2.new(0, 243, 0, 328)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(213, 213, 213)
+label.Size = UDim2.new(0, 243, 0, 50)
+label.Font = Enum.Font.PatrickHand
+label.Text = "SS hub"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 36.000
+
+label_2.Name = "label"
+label_2.Parent = main
+label_2.BackgroundColor3 = Color3.fromRGB(213, 213, 213)
+label_2.BorderSizePixel = 0
+label_2.Position = UDim2.new(0.279835403, 0, 0, 0)
+label_2.Size = UDim2.new(0, 93, 0, 14)
+label_2.Font = Enum.Font.SourceSans
+label_2.Text = "Made By 99#1234"
+label_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+label_2.TextSize = 14.000
+
+ImageButton.Parent = main
+ImageButton.BackgroundColor3 = Color3.fromRGB(213, 213, 213)
+ImageButton.BorderSizePixel = 0
+ImageButton.Size = UDim2.new(0, 53, 0, 50)
+ImageButton.Image = "http://www.roblox.com/asset/?id=7935270817"
+
+CocoZ.Name = "CocoZ"
+CocoZ.Parent = main
+CocoZ.BackgroundColor3 = Color3.fromRGB(213, 213, 213)
+CocoZ.Position = UDim2.new(0.094650209, 0, 0.286585361, 0)
+CocoZ.Size = UDim2.new(0, 196, 0, 26)
+CocoZ.Font = Enum.Font.SourceSans
+CocoZ.Text = "Coco Z (Multi Game)"
+CocoZ.TextColor3 = Color3.fromRGB(0, 0, 0)
+CocoZ.TextSize = 20.000
+CocoZ.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/HaximYT/EternityHub/main/Main.lua'),true))()
+end)
+
+
+Owlhub.Name = "Owlhub"
+Owlhub.Parent = main
+Owlhub.BackgroundColor3 = Color3.fromRGB(213, 213, 213)
+Owlhub.Position = UDim2.new(0.094650209, 0, 0.420731723, 0)
+Owlhub.Size = UDim2.new(0, 196, 0, 26)
+Owlhub.Font = Enum.Font.SourceSans
+Owlhub.Text = "Owl Hub (aresenal)"
+Owlhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Owlhub.TextSize = 20.000
+Owlhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+swaghub.Name = "swaghub"
+swaghub.Parent = main
+swaghub.BackgroundColor3 = Color3.fromRGB(213, 213, 213)
+swaghub.Position = UDim2.new(0.094650209, 0, 0.557926834, 0)
+swaghub.Size = UDim2.new(0, 196, 0, 26)
+swaghub.Font = Enum.Font.SourceSans
+swaghub.Text = "Swag Hub (DaHood)"
+swaghub.TextColor3 = Color3.fromRGB(0, 0, 0)
+swaghub.TextSize = 20.000
+swaghub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+
+label_3.Name = "label"
+label_3.Parent = main
+label_3.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+label_3.BorderSizePixel = 0
+label_3.Position = UDim2.new(0.176954731, 0, 0.189024389, 0)
+label_3.Size = UDim2.new(0, 93, 0, 23)
+label_3.Font = Enum.Font.SourceSans
+label_3.Text = "Universal Scripts"
+label_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+label_3.TextSize = 23.000
+
+shindo.Name = "shindo"
+shindo.Parent = main
+shindo.BackgroundColor3 = Color3.fromRGB(213, 213, 213)
+shindo.Position = UDim2.new(0.094650209, 0, 0.689024389, 0)
+shindo.Size = UDim2.new(0, 196, 0, 26)
+shindo.Font = Enum.Font.SourceSans
+shindo.Text = "Shindo Life Gui"
+shindo.TextColor3 = Color3.fromRGB(0, 0, 0)
+shindo.TextSize = 20.000
+shindo.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://snxwhub.xyz/Hub.lua"))()
+end)
+
+bloxfruits.Name = "blox fruits"
+bloxfruits.Parent = main
+bloxfruits.BackgroundColor3 = Color3.fromRGB(213, 213, 213)
+bloxfruits.Position = UDim2.new(0.094650209, 0, 0.838414609, 0)
+bloxfruits.Size = UDim2.new(0, 196, 0, 26)
+bloxfruits.Font = Enum.Font.SourceSans
+bloxfruits.Text = "BloxFruits Gui"
+bloxfruits.TextColor3 = Color3.fromRGB(0, 0, 0)
+bloxfruits.TextSize = 20.000
+bloxfruits.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://rasputin-bf.glitch.me/bloxfruits.lua"))()
+end)
+
+
+closegui.Name = "closegui"
+closegui.Parent = main
+closegui.BackgroundColor3 = Color3.fromRGB(213, 213, 213)
+closegui.Position = UDim2.new(0.901234567, 0, 0, 0)
+closegui.Size = UDim2.new(0, 24, 0, 20)
+closegui.Font = Enum.Font.SourceSans
+closegui.Text = "X"
+closegui.TextColor3 = Color3.fromRGB(0, 0, 0)
+closegui.TextSize = 20.000
+
+opengui.Name = "open gui"
+opengui.Parent = ScreenGui
+opengui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+opengui.Position = UDim2.new(0, 0, 0.597979784, 0)
+opengui.Size = UDim2.new(0, 93, 0, 24)
+opengui.Font = Enum.Font.SourceSans
+opengui.Text = "Open Gui"
+opengui.TextColor3 = Color3.fromRGB(0, 0, 0)
+opengui.TextSize = 14.000
+
+-- Scripts:
+
+local function GPJXDVD_fake_script() -- closegui.LocalScript 
+	local script = Instance.new('LocalScript', closegui)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(GPJXDVD_fake_script)()
+local function IFMYRO_fake_script() -- opengui.LocalScript 
+	local script = Instance.new('LocalScript', opengui)
+
+	local frame = script.Parent.Parent.main  -- change “Test” to the name of the frane
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(IFMYRO_fake_script)()
+local function DNGIWYI_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	frame = script.Parent.main
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true 
+end
+coroutine.wrap(DNGIWYI_fake_script)()
